@@ -11,6 +11,8 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const ref = useRef();
   useEffect(() => {
+    // console.log("height = ", window.innerHeight);
+    // console.log("width = ", window.innerWidth);
     if (!isLoading) {
       document.addEventListener("mousemove", (e) => {
         ref.current.style.left = e.clientX + "px";

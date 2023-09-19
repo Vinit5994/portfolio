@@ -1,101 +1,79 @@
+import Connect from "./assets/images/connect.png";
+import Tirupati from "./assets/images/tirupati.png";
+import Pridity from "./assets/images/pridity.png";
+import File from "./assets/images/file.png";
+import Places from "./assets/images/places.png";
+import Meals from "./assets/images/meals.png";
+import Shop from "./assets/images/shop.png";
 export const projects = [
   {
-    title: "WhatsApp Clone",
+    title: "CONNECT",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "An Open source  alternative to linkrtree implemented in javascript and flask that connects peoples to all of your content with just one click.",
+    tech: ["#REACT", "#FLASK", "#MYSQL", "#JQUERY"],
     icon: "fa-brands fa-github",
     isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    link: "https://github.com/abhigoyani/connect",
+    image: Connect,
   },
   {
-    title: "Amazon Clone",
+    title: "FileStore",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "An application built with flutter and storyBlock  where users can send and recieve files to their friends in just few clicks.",
+    tech: ["#Flutter", "#Firebase", "#storyBlock"],
     icon: "fa-brands fa-github",
-    isCode: true,
-    link: "",
-    image:
-      "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000",
+    isCode: false,
+    link: "https://github.com/rushilmakvana/pridity",
+    image: File,
   },
   {
-    title: "WhatsApp Clone",
+    title: "Pridity",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "A website where third gender recognization peoples built their cummunity without any hasitation.",
+    tech: ["#React", "#CockroachDB", "#NodeJS"],
     icon: "fa-brands fa-github",
     isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    link: "https://github.com/rushilmakvana/pridity",
+    image: Pridity,
   },
   {
-    title: "WhatsApp Clone",
+    title: "TIRUPATI TAILORS ECOMMERCE WEBSITE",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "An ecommerce site where ladies can order and  get their favourite clothes at their door step in few clicks.",
+    tech: ["#REACT", "#FLASK", "#FIREBASE"],
     icon: "fa-brands fa-github",
     isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    link: "https://github.com/rushilmakvana/tirupati-tailors",
+    image: Tirupati,
   },
   {
-    title: "WhatsApp Clone",
+    title: "MyMeals",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "A flutter application where peoples share and save the collection of their favourite dishes at one place.",
+    tech: ["#Flutter", "#Firebase"],
     icon: "fa-brands fa-github",
-    isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    isCode: false,
+    link: "https://github.com/rushilmakvana/meals-app-flutter",
+    image: Meals,
   },
   {
-    title: "WhatsApp Clone",
+    title: "MyShop",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "An application built with flutter and Firebase where users can get their favoruite products at their doorstep in just few clicks.",
+    tech: ["#Flutter", "#Firebase"],
     icon: "fa-brands fa-github",
-    isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    isCode: false,
+    link: "https://github.com/rushilmakvana/mini_shop_app",
+    image: Shop,
   },
   {
-    title: "WhatsApp Clone",
+    title: "Great Places",
     description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
+      "An application built in flutter where peoples can save their best life memories easily.",
+    tech: ["#Flutter", "#FIREBASE", "#GoogleAPIs"],
     icon: "fa-brands fa-github",
     isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-  },
-  {
-    title: "WhatsApp Clone",
-    description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
-    icon: "fa-brands fa-github",
-    isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-  },
-  {
-    title: "WhatsApp Clone",
-    description:
-      "Live chat application where people can talk using chat or video calls like Whatsapp.",
-    tech: ["#flutter", "#firebase", "#Agora"],
-    icon: "fa-brands fa-github",
-    isCode: true,
-    link: "",
-    image:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    link: "https://github.com/rushilmakvana/great-places",
+    image: Places,
   },
 ];

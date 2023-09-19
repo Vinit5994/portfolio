@@ -34,11 +34,15 @@
   scroll-behavior: smooth;
   letter-spacing: 1px;
 }
+html {
+  height: -webkit-fill-available;
+}
 body {
   font-family: "Poppins", sans-serif;
   /* font-family: polaris; */
   background-color: rgb(26, 26, 26);
   overflow-x: hidden;
+  height: -webkit-fill-available;
 }
 .container {
   width: 100%;

@@ -220,11 +220,13 @@ const Content = () => {
               animate={"visible"}
               variants={container}
             >
-              <span>
-                {MainText.map((item, index) => {
-                  return <AnimatedText {...item} key={index} />;
-                })}
-              </span>
+              <a href="#about">
+                <span>
+                  {MainText.map((item, index) => {
+                    return <AnimatedText {...item} key={index} />;
+                  })}
+                </span>
+              </a>
             </motion.span>
             <span>
               {" "}

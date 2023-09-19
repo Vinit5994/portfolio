@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import "./App.css";
 import { motion, AnimatePresence } from "framer-motion";
+import { BurgerSpin as Burger } from "react-burger-icons";
 const Navbar = () => {
   const [isMenu, setIsMenu] = useState(true);
 
@@ -12,13 +13,13 @@ const Navbar = () => {
     const new_links = document.querySelectorAll(".new-menu-item a");
     let current = "";
     sections.forEach((section) => {
-      console.log("scroll - ", window.scrollY);
-      console.log(
-        section.getAttribute("id"),
-        section.offsetTop,
-        section.clientHeight,
-        section.offsetTop - section.clientHeight / 4
-      );
+      // console.log("scroll - ", window.scrollY);
+      // console.log(
+      //   section.getAttribute("id"),
+      //   section.offsetTop,
+      //   section.clientHeight,
+      //   section.offsetTop - section.clientHeight / 4
+      // );
       if (window.scrollY >= section.offsetTop - section.clientHeight / 4) {
         current = section.getAttribute("id");
       }
@@ -116,6 +117,7 @@ const Navbar = () => {
           </motion.div>
         )}
       </AnimatePresence>
+      
       <AnimatePresence>
         {!isMenu && (
           <motion.div

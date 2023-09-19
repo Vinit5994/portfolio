@@ -77,22 +77,22 @@ const Contact = () => {
               </div>
               <div className="icons">
                 <div className="icon">
-                  <a href="#">
+                  <a href="https://github.com/rushilmakvana">
                     <i className="fa-brands fa-github"></i>
                   </a>
                 </div>
                 <div className="icon">
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/rushil-makvana-57a28b207/">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
                 </div>
                 <div className="icon">
-                  <a href="">
+                  <a href="https://twitter.com/rushilmakwana">
                     <i className="fa-brands fa-twitter"></i>
                   </a>
                 </div>
                 <div className="icon">
-                  <a href="">
+                  <a href="https://instagram.com/rushil.9">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                 </div>

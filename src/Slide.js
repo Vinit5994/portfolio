@@ -33,9 +33,9 @@ const Slide = () => {
         modules={[EffectCreative, Navigation, Pagination]}
         className="mySwiper3"
       >
-        {projects.map((e) => {
+        {projects.map((e, i) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={i}>
               <div className="project-item">
                 <div className="proj-desc">
                   <div className="proj-title">
@@ -45,15 +45,15 @@ const Slide = () => {
                     <span>{e.description}</span>
                   </div>
                   <div className="proj-tech">
-                    {e.tech.map((e2) => (
+                    {e.tech.map((e2, i) => (
                       <>
-                        <span>{e2}</span>&nbsp;&nbsp;
+                        <span key={i}>{e2}</span>&nbsp;&nbsp;
                       </>
                     ))}
                   </div>
                   {e.isCode && (
                     <div className="code-link">
-                      <a href={e.link}>
+                      <a href={e.link} target="_blank">
                         <span>
                           <i className={e.icon}></i>&nbsp;
                         </span>

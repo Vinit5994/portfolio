@@ -9,6 +9,7 @@
   padding: 0 25px;
   padding-top: 15rem;
   padding-bottom: 17rem;
+  overflow-x: hidden;
   /* border: 2px solid blue; */
 }
 .intro {
@@ -126,6 +127,7 @@
 .text-in {
   display: block !important;
   animation: textIn 0.5s ease;
+  /* color: rgb(255, 255, 82); */
 }
 .text-out {
   animation: textOut 0.5s ease;
@@ -133,6 +135,7 @@
 .lottie {
   /* border: 2px solid; */
   width: 85%;
+  margin-right: -60px;
   /* height: 400px; */
 }
 .c-active {
@@ -207,6 +210,9 @@
   .swipe-down {
     bottom: 4rem;
   }
+  .lottie {
+    margin-right: -40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -241,6 +247,9 @@
   }
   .swipe-down {
     display: none;
+  }
+  .lottie {
+    margin-right: 0;
   }
 }
 
@@ -347,5 +356,21 @@
   }
   .last-txt span {
     font-size: 17px;
+  }
+}
+
+@media (min-height: 700px) {
+  .content {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-height: 1300px) {
+  .content {
+    display: flex;
+    height: max-content;
   }
 }
