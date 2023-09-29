@@ -8,28 +8,28 @@ import { useState } from "react";
 import Loader from "./Loader";
 import Projects from "./Projects";
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
   const ref = useRef();
-  useEffect(() => {
-    // console.log("height = ", window.innerHeight);
-    // console.log("width = ", window.innerWidth);
-    if (!isLoading) {
-      document.addEventListener("mousemove", (e) => {
-        ref.current.style.left = e.clientX + "px";
-        ref.current.style.top = e.clientY + "px";
-      });
-    }
-    // console.log(ref.current);
-    // const cursor=
-  }, [isLoading]);
+  // useEffect(() => {
+  //   // console.log("height = ", window.innerHeight);
+  //   // console.log("width = ", window.innerWidth);
+  //   if (!isLoading) {
+  //     document.addEventListener("mousemove", (e) => {
+  //       ref.current.style.left = e.clientX + "px";
+  //       ref.current.style.top = e.clientY + "px";
+  //     });
+  //   }
+  //   // console.log(ref.current);
+  //   // const cursor=
+  // }, [isLoading]);
 
-  setTimeout(() => {
-    setIsLoading(false);
-  }, 4000);
+  // setTimeout(() => {
+  //   setIsLoading(false);
+  // }, 4000);
 
-  if (isLoading) {
-    return <Loader />;
-  } else {
+  // if (isLoading) {
+  //   return <Loader />;
+  // } else {
     return (
       <>
         <div className="container">
@@ -44,6 +44,6 @@ const App = () => {
       </>
     );
   }
-};
+;
 
 export default App;

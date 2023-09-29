@@ -90,7 +90,7 @@ const Journey = () => {
             </div>
             <div className="location l1">
               <i className="fa-solid fa-location-dot"></i>
-              <span>SVB, Surat</span>
+              <span>Bhavan's shri A. K. doshi vidhyalaya , Jamnagar.</span>
             </div>
           </div>
         </div>
@@ -102,16 +102,16 @@ const Journey = () => {
           <div className="box">
             <div className="year y2">
               <i className="fa-solid fa-calendar-days"></i>
-              <span>2021</span>
+              <span>2020</span>
             </div>
             <div className="description d2">
               <span>
-                Completed Diploma engineering in Information Technology
+                Completed higher secondry school in science.
               </span>
             </div>
             <div className="location l2">
               <i className="fa-solid fa-location-dot"></i>
-              <span>SSGCET, Surat.</span>
+              <span>Prime School , Jamnagar.</span>
             </div>
           </div>
         </div>

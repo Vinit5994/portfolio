@@ -54,7 +54,7 @@ const Navbar = () => {
         data-aos-duration="1500"
       >
         <div className="logo">
-          <h1>R</h1>
+          <h1>VP</h1>
         </div>
         <div></div>
         {/* <div className="menu"> */}

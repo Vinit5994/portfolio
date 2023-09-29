@@ -68,7 +68,7 @@ const Contact = () => {
           <div className="email-text">
             <span>
               Do not hesitate to contact me. Direct email on&nbsp;
-              <span className="mail">rushilmakvana@gmail.com</span>&nbsp; for
+              <span className="mail">vinitpithadiya07@gmail.com</span>&nbsp; for
               any queries.
             </span>
             <div className="socials">
@@ -77,22 +77,22 @@ const Contact = () => {
               </div>
               <div className="icons">
                 <div className="icon">
-                  <a href="https://github.com/rushilmakvana">
+                  <a href="https://github.com/Vinit5994" target="_blank">
                     <i className="fa-brands fa-github"></i>
                   </a>
                 </div>
                 <div className="icon">
-                  <a href="https://www.linkedin.com/in/rushil-makvana-57a28b207/">
+                  <a href="https://www.linkedin.com/in/Vinit" target="_blank">
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
                 </div>
                 <div className="icon">
-                  <a href="https://twitter.com/rushilmakwana">
+                  <a href="https://twitter.com/vinitpithadiya2" target="_blank">
                     <i className="fa-brands fa-twitter"></i>
                   </a>
                 </div>
                 <div className="icon">
-                  <a href="https://instagram.com/rushil.9">
+                  <a href="https://instagram.com/vinit__07" target="_blank">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                 </div>
@@ -102,7 +102,7 @@ const Contact = () => {
               <span className="copy">
                 <i className="fa-regular fa-copyright"></i>
               </span>
-              <span>Rushil Makvana</span>
+              <span>Vinit Pithadiya</span>
             </div>
           </div>
         </div>

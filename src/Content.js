@@ -14,40 +14,6 @@ import "./App.css";
 import swipe from "../src/lotties/swipe.json";
 // import { useState } from "react";
 const Content = () => {
-  // function smoke(classname) {
-  //   $(classname).html(
-  //     "<span>" +
-  //       $(classname).text().replace(/\s/g, "</span> <span>") +
-  //       "</span>"
-  //   );
-  //   const textarr = $(classname + " span");
-  //   for (let i = 0; i < textarr.length; i++) {
-  //     textarr[i].innerHTML = textarr[i].textContent.replace(
-  //       /\S/g,
-  //       "<span>$&</span>"
-  //     );
-  //   }
-  //   const letters = $(classname + " span span");
-  //   for (let i = 0; i < letters.length; i++) {
-  //     letters[i].addEventListener("mouseover", function () {
-  //       letters[i].classList.add("c-active");
-  //     });
-  //   }
-  //   // console.log(letters);
-  //   // console.log(textarr[0].innerHTML);
-  // }
-  // useEffect(() => {
-  // smoke(".sm-txt span");
-  // }, []);
-
-  // const [isStart, setIsStart] = useState(false);
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     // setIsStart(true);
-  //     document.querySelector("#my-anim").currentTime = 0;
-  //   }, 1200);
-  // }, []);
-  // const [replay, setReplay] = useState(true);
   const MainText = [
     {
       type: "span",
@@ -200,7 +166,7 @@ const Content = () => {
             </motion.span> */}
             &nbsp;
             <span className="animate-text">
-              <span>Rushil.</span>
+              <span>Vinit.</span>
               <span>Developer.</span>
               <span>Designer.</span>
               <span>Programmer.</span>
@@ -209,7 +175,7 @@ const Content = () => {
           </span>
           <div data-aos="fade-up" data-aos-delay="400" className="sm-txt">
             <span>
-              I'm a full-stack web developer and mobile application developer
+              I'm a full-stack web developer 
               with a great passion.
             </span>
           </div>

@@ -191,10 +191,10 @@
   -webkit-box-reflect: below -30% linear-gradient(transparent, rgba(183, 183, 183, 0.13));
   font-family: anurati;
   font-size: 44px;
-  text-shadow: 3px 3px 5px #fff;
+  text-shadow: 3px 3px 1px #fff;
   /* animation: fade 4s linear reverse infinite; */
   text-shadow: 6px 6px 10px #7703f4, 0 0 20px #7703f4, 0 0 40px #7703f4,
-    0 0 80px #7703f4, 0 0 220px #7703f4;
+    0 0 80px #7703f4, 0 0 200px #7703f4;
 }
 
 @media (min-width: 1440px) {
