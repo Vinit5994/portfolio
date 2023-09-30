@@ -30,7 +30,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(231, 231, 231);
+  /* color: rgb(231, 231, 231); */
+  color: black;
   scroll-behavior: smooth;
   letter-spacing: 1px;
 }
@@ -40,7 +41,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   /* font-family: polaris; */
-  background-color: rgb(26, 26, 26);
+  /* background-color: rgb(26, 26, 26); */
+  background-color: #fff;
   overflow-x: hidden;
   height: -webkit-fill-available;
 }

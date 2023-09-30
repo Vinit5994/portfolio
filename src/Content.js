@@ -85,13 +85,13 @@ const Content = () => {
       animationData: animateData,
       renderer: "svg",
       autoplay: true,
-      loop: false,
+      loop:true,
     });
     setTimeout(() => {
       lottieAnimation.playSegments([0, 220], true);
-    }, 1000);
+    }, 3600);
     const lottieObserver = new IntersectionObserver((entries) => {
-      // console.log(entries);
+      console.log(entries);
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           lottieAnimation.playSegments([0, 220], true);
